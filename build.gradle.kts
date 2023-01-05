@@ -44,7 +44,7 @@ subprojects {
         repositories {
             maven {
                 name = "nexus"
-                url = uri("https://nexus.spliterash.ru/repository/minestom-event")
+                url = uri("https://repo.spliterash.ru/minestom-event")
                 credentials {
                     username = findProperty("SPLITERASH_NEXUS_USR")?.toString()
                     password = findProperty("SPLITERASH_NEXUS_PSW")?.toString()
