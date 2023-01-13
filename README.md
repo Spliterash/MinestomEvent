@@ -12,7 +12,7 @@ If you want use it
 Gradle:
 ```kotlin
 repositories {
-    maven("https://nexus.spliterash.ru/repository/group/")
+    maven("https://repo.spliterash.ru/group/")
 }
 
 dependencies {
